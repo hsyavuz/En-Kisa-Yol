@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<interface>
+  <requires lib="gtk+" version="2.16"/>
+  <!-- interface-naming-policy project-wide -->
+  <object class="GtkWindow" id="window1">
+    <property name="title" translatable="yes">Kruskal En K&#x131;sa Yol A&#x11F;ac&#x131;</property>
+    <property name="resizable">False</property>
+    <child>
+      <object class="GtkFixed" id="fixed1">
+        <property name="visible">True</property>
+        <child>
+          <object class="GtkLabel" id="label1">
+            <property name="width_request">149</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">D&#xFC;&#x11F;&#xFC;m say&#x131;s&#x131;n&#x131; giriniz :
+</property>
+          </object>
+          <packing>
+            <property name="x">418</property>
+            <property name="y">158</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label2">
+            <property name="width_request">164</property>
+            <property name="height_request">30</property>
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">D&#xFC;&#x11F;&#xFC;mleri aralar&#x131;nda bo&#x15F;luk
+b&#x131;rakarak giriniz                         : </property>
+          </object>
+          <packing>
+            <property name="x">419</property>
+            <property name="y">218</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="entry1">
+            <property name="width_request">100</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="invisible_char">&#x25CF;</property>
+          </object>
+          <packing>
+            <property name="x">649</property>
+            <property name="y">155</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="entry2">
+            <property name="width_request">100</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="invisible_char">&#x25CF;</property>
+          </object>
+          <packing>
+            <property name="x">653</property>
+            <property name="y">227</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button1">
+            <property name="label" translatable="yes">Hesapla</property>
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+          </object>
+          <packing>
+            <property name="x">551</property>
+            <property name="y">332</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label4">
+            <property name="width_request">400</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">En K&#x131;sa yol</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkTextView" id="textview2">
+            <property name="width_request">400</property>
+            <property name="height_request">350</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="editable">False</property>
+          </object>
+          <packing>
+            <property name="y">21</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label5">
+            <property name="width_request">259</property>
+            <property name="height_request">134</property>
+            <property name="visible">True</property>
+          </object>
+          <packing>
+            <property name="x">422</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label3">
+            <property name="width_request">317</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+          </object>
+          <packing>
+            <property name="x">40</property>
+            <property name="y">395</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
